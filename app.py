@@ -14,7 +14,8 @@ def info():
         {
             'integrantes':[
                 'Artur Moretti Zimmermann',
-                'Bruno Navarro Ivatiuk'
+                'Bruno Navarro Ivatiuk',
+                "Joao das Couves"
             ]
         }
     ])
