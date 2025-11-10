@@ -26,6 +26,10 @@ def metricas():
             'integrantes':[
                 'Artur Moretti Zimmermann',
                 'Bruno Navarro Ivatiuk'
-            ]
+            ],
+            'PID':os.getpid(),
+            'Memoria_Utilizada':(psutil.virtual_memory().used // 1024 ** 2),
+            'Uso_CPU':psutil.cpu_percent(percpu=True),
+            'SO':platform.platform()
         }
     ])
