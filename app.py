@@ -8,6 +8,7 @@ def info():
     return json.dumps([
         {
             'integrantes':[
+                'Artur Moretti Zimmermann',
                 'Bruno Navarro Ivatiuk'
             ]
         }
